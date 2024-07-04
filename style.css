@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+    background: linear-gradient(to right, #fd746c, #ff9068);
+    font-family: 'Roboto', sans-serif; /* Applying Google Font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Align items in a column */
+  }
+
+  /* Styling results and buttons */
+  .results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow results to wrap */
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px; /* Add margin below results */
+  }
+
+  .result {
+    width: 300px; /* Fixed width for result boxes */
+    height: 300px; /* Fixed height for result boxes */
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .result img {
+    max-width: 100%; /* Ensure images do not exceed parent width */
+    max-height: 100%; /* Ensure images do not exceed parent height */
+    border-radius: 8px; /* Rounded corners for images */
+  }
+
+  .buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 250px;
+    justify-content: center; /* Center buttons horizontally */
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 10px;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
